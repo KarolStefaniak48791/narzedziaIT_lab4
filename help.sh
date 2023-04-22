@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ "$1" = "--help" ]; then
+if [ "$1" = "--help" ] || [ "$1" = "-h" ]; then
     echo "Dostępne opcje:"
     echo "--date: Wyświetla dzisiejsza date"
     echo "--logs: Tworzy 100 plikow logx.txt"
