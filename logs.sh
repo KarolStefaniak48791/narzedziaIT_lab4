@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ "$1" = "--logs" ]; then
+if [ "$1" = "--logs" ] || [ "$1" = "-l" ]; then
     for ((i=1; i<=100; i++))
     do
         echo "Nazwa pliku: log$i.txt" > log$i.txt

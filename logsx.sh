@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ "$1" = "--logsx" ]; then
+if [ "$1" = "--logsx" ] || [ "$1" = "-x" ]; then
     if [ -n "$2" ]; then
         count="$2"
     else
